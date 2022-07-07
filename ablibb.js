@@ -29,7 +29,7 @@ function copyjs(codycont){
 	}
 }
 const codeJosn= {
-  "KScode":"##X1yHAeP8yZ9q2gY##",
+  "KScode":"##Y3Z5g00P1##",
   "TBcode":"(OJ7L2LfETOj¢/",
   "DYcode":"ππ8M3ScSzRqtMt8ㄍㄍ",
   "Otcode":""
