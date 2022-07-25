@@ -32,8 +32,8 @@ const codeJosn= {
   //"KScode":"##Y44WaunVk##",
   "KScode":"##X-2kYEK9gHgivu4E##",
   "TBcode":"(A7Ao2JB5gVY¢/",
-  "DYcode":"ÑÑ7h4d9iw6LsEau8ŠŠ",
-  "Otcode":""
+  "DYcode":"uЯ2PgR19Jqgu8Я",
+  "Otcode":"ㄍㄍHtVM5oRqgu8Э"
 }
 let cpCode = '';
 for(let key in codeJosn){
