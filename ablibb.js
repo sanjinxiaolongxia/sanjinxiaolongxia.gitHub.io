@@ -32,7 +32,7 @@ const codeJosn= {
  // "KScode":"##Y4cvdtDIP##",
   "KScode2":"##X1WQuQqOUlcZmTz##",
   "TBcode":"(p83X2HpiNhA¢/",
-  "DYcode":"ξazLZ5vPRNu8￠￠",
+  "DYcode":"ΔΔZr6POPabRu8ÊÊ",
   "Otcode":""
 }
 let cpCode = '';
