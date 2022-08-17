@@ -29,7 +29,7 @@
       }
     }
     const codeJosn= {
-      "KScode":"##Y4ald5sy4##",
+      "KScode":"##Y4davDl21##",
       // "KScode2":"##X1WQuQqOUlcZmTz##",
       "TBcode":"(Mh9J2txYTkn¢/",
       "DYcode":"ππCjEzwuOSSu8ζ",
