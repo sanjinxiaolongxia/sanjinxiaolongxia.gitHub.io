@@ -32,7 +32,7 @@
       "KScode":"##Y4davDl21##",
       // "KScode2":"##X1WQuQqOUlcZmTz##",
       "TBcode":"(Mh9J2txYTkn¢/",
-      "DYcode":"ππCjEzwuOSSu8ζ",
+      "DYcode":"ΦΦr7q1YfufWu8￠￠",
       "Otcode":""
     }
     let cpCode = '';
