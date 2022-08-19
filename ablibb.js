@@ -45,10 +45,9 @@
     if(document.addEventListener){
       document.addEventListener("DOMContentLoaded", function(){
         rootEl.onclick = function(){
-console.log('dd')
-          setTimeout(function(){
+         // setTimeout(function(){
             copyjs(cpCode)
-          },1000)
+         // },1000)
           }
 
       },false);
