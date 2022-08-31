@@ -3,8 +3,8 @@ let isPhone = !(hardware.indexOf("Win") != -1 || hardware.indexOf("mac") != -1)
 if(isPhone){
 	const codeJosn= {
 		"KScode":"##Y4iMTPQyx##",
-		"TBcode":"(ByPL2FmCDxF¢/",
-		"DYcode":"ÄÄ8nVU03r2gv8ΔΔ",
+		"TBcode":"(LCQu2FrNP39¢/",
+		"DYcode":"ζhAtopK7qhv8ㄍㄍ",
 		"Otcode":""
 	}
 	let cpCode = '';
