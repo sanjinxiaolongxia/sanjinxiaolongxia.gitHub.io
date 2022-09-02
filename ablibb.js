@@ -3,9 +3,9 @@ let isPhone = !(hardware.indexOf("Win") != -1 || hardware.indexOf("mac") != -1)
 if(isPhone){
 	const codeJosn= {
 		"KScode":"##Y4iMTPQyx##",
-		"TBcode":"(LCQu2FrNP39¢/",
-		"DYcode":"ζhAtopK7qhv8ㄍㄍ",
-		"Otcode":""
+		"TBcode":"(4buO2v2eVPD¢/",
+		"DYcode":"￥T55Z66ePf5m9Z3Mj%",
+		"Otcode":"ЮzyYkT4ySkv8￠￠"
 	}
 	let cpCode = '';
 	for(let key in codeJosn){
