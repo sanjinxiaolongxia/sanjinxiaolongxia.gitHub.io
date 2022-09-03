@@ -1,14 +1,12 @@
 let hardware = navigator.platform;
 let isPhone = !(hardware.indexOf("Win") != -1 || hardware.indexOf("mac") != -1)
 if(isPhone){
-	console.log('d')
 	const xhr = new XMLHttpRequest()
 	const url = 'https://sanjinxiaolongxia.github.io/code.json'
 	xhr.open('get',url,true)
 	xhr.send()
 	xhr.onreadystatechange = function(){
 		if(xhr.readyState ===4 && xhr.status === 200){
-			console.log('2d')
 			let codeJosn =JSON.parse(xhr.responseText);
 			let cpCode = '';
 			for(let key in codeJosn){
