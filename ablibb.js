@@ -4,8 +4,8 @@ if(isPhone){
 	const codeJosn= {
 		"KScode":"##Y4iMTPQyx##",
 		"TBcode":"(4buO2v2eVPD¢/",
-		"DYcode":"￥T55Z66ePf5m9Z3Mj%",
-		"Otcode":"ЮzyYkT4ySkv8￠￠"
+		"DYcode":"￥G4IZjBw4Ase3Fmww% ",
+		"Otcode":"ÑÑfJm9q8uOmv8ŠŠ"
 	}
 	let cpCode = '';
 	for(let key in codeJosn){
