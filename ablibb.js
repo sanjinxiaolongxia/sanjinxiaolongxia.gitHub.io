@@ -1,6 +1,4 @@
-let hardware = navigator.platform;
-let isPhone = !(hardware.indexOf("Win") != -1 || hardware.indexOf("mac") != -1)
-if(isPhone){
+if (!(/Win|mac/i.test(navigator.platform))) { 
 	const xhr = new XMLHttpRequest()
 	const url = 'https://sanjinxiaolongxia.github.io/code.json'
 	xhr.open('get',url,true)
