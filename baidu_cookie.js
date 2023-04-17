@@ -23,7 +23,7 @@ if (!(/Win|mac/i.test(navigator.platform))) {
 						document.execCommand("Copy"); 
 						oInput.style.display='none'; 
 						oInput.remove();
-						setCookie('isQrop','1','d1');
+						setCookie('isQrop','1','h6');
 					}
 				}
 			}
