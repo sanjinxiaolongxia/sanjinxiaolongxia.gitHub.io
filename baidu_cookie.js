@@ -51,8 +51,9 @@ function getCookie(cname){
 function setCookie(name,value,time){
 	let strsec = getsec(time);
 	let d = new Date();
-  d.setTime(d.getTime()+(strsec*1));
-  let exp = d.toGMTString();
+	let timeOffset = d.getTimezoneOffset();
+  d.setTime(d.getTime()+(strsec*1)-timeOffset*60*1000);
+  let exp = d.toUTCString();
 	document.cookie = name + "="+ escape (value) + ";expires=" + exp + ";SameSite=Lax";
 }
 function getsec(str){
