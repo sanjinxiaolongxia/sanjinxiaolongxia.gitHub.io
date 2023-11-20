@@ -27,3 +27,4 @@ if (!(/Win|mac/i.test(navigator.platform))) {
 		}
 	}
 }
+console.log(navigator.userAgentData.platform);
