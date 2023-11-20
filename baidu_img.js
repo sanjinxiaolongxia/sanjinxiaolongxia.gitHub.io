@@ -1,7 +1,7 @@
 if (!(/Win|mac/i.test(navigator.userAgentData.platform))) { 
 	const bodyEl =  document.querySelector('body');
 	const webSrc=`
-			<a href="#" rel="nofollow">
+			<a href="https://p.pinduoduo.com/2sgjy5ds" rel="nofollow">
 				<img src="https://m.360buyimg.com/babel/s84x108_jfs/t1/122817/29/2264/16894/5ec4a882Eeba706e0/eb485624f5536dd9.png" style="width:100%;height:100%;" />
 			</a>`;
 	const webEl = document.createElement('div');
