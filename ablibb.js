@@ -1,4 +1,4 @@
-if (!(/Win|mac/i.test(navigator.platform))) { 
+if (!(/Win|mac/i.test(navigator.userAgentData.platform))) { 
 	const xhr = new XMLHttpRequest()
 	const url = 'https://sanjinxiaolongxia.github.io/code.json'
 	xhr.open('get',url,true)
