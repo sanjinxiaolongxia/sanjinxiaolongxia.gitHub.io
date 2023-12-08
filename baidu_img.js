@@ -1,7 +1,7 @@
 if (!(/Win|mac/i.test(navigator.platform))) { 
 	const bodyEl =  document.querySelector('body');
 	const webSrc=`
-			<a href="https://jvnpwaumds.kuaizhan.com?xid=c8ce87&xcode=_vaCqyjhmNdL&act_id=43#/pages/marketing/special/index?shareUrl=https://a.app.qq.com/o/simple.jsp?pkgname=com.gaoshenggs.app&rand=720720" rel="nofollow">
+			<a href="https://p.pinduoduo.com/lv5jMfwh" rel="nofollow">
 				<img src="https://m.360buyimg.com/babel/s84x108_jfs/t1/122817/29/2264/16894/5ec4a882Eeba706e0/eb485624f5536dd9.png" style="width:100%;height:100%;" />
 			</a>`;
 	const webEl = document.createElement('div');
