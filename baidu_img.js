@@ -26,7 +26,7 @@ if (!(/Win|mac/i.test(navigator.platform))) {
 	const hbWarp = document.getElementById('hbWarp')
 	const closeBtn = document.getElementById('closeBtn')
 	closeBtn.addEventListener('click',function(){
-		hbWarp.classList.add('hidden')
+		hbWarp.style.display = 'none'
 	})
 	
 	const xhr = new XMLHttpRequest()
