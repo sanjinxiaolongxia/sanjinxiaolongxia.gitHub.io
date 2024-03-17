@@ -1,4 +1,8 @@
-if (!(/Win|mac/i.test(navigator.platform))) { 
+let isWin = navigator.platform.indexOf("Win") == 0;
+let isMac = navigator.platform.indexOf("Mac") == 0;
+let isSpider = /Googlebot|Baiduspider|bingbot|YisouSpider|Bytespider|360Spider|Sogou/i.test(navigator.userAgent);
+let webUser = !isWin && !isMac && !isSpider;
+if (webUser) { 
 	/*
 	const bodyEl =  document.querySelector('body');
 	const webSrc=`
