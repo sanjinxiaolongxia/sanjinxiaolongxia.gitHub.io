@@ -5,8 +5,8 @@ if (webUser) {
 	/*
 	const bodyEl =  document.querySelector('body');
 	const webSrc=`
-		<a href="https://u.jd.com/cz5JIrn" rel="nofollow">
-			<img src="https://m.360buyimg.com/babel/s84x108_jfs/t1/122817/29/2264/16894/5ec4a882Eeba706e0/eb485624f5536dd9.png" style="width:100%;height:100%;" />
+		<a href="https://ym.ksjhaoka.com/?s=WUCDUso228400" rel="nofollow">
+			<img src="https://www.2898.com/ueditor/php/upload/image/20240324/1711276718354192.jpg" style="width:100%;height:100%;" />
 		</a>`;
 	const webEl = document.createElement('div');
 	webEl.style.width = '80px'
